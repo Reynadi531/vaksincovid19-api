@@ -12,5 +12,8 @@
       "src": "/.*",
       "dest": "index.js"
     }
+  ],
+  "regions": [
+      "sin1"
   ]
 }
