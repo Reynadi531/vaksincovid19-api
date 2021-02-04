@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "name": "vaksincoivd19-id",
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@now/node-server"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "index.js"
+    }
+  ]
+}

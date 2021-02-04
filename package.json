@@ -1,0 +1,22 @@
+{
+  "name": "vaksincoivd19-id",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Reynadi Andreas Priesley <yerpa531@gmail.com>",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.4.1",
+    "morgan": "^1.10.0"
+  }
+}
