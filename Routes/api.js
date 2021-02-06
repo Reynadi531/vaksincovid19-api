@@ -1,6 +1,5 @@
 const router = require('express').Router()
 const scrape = require('../util/scrape')
-const { PORT } = require('../index')
 
 router.get('/', (req, res) => {
     const url = `${req.protocol}://${req.hostname}${req.hostname == 'localhost' ? `:${process.env.PORT || 3000}` : ''}`;
