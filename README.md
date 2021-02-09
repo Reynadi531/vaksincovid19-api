@@ -1,6 +1,6 @@
 # API VAKSIN COVID-19 INDONESIA
 
-Untuk project ini saya menggunakan express dan scrapping data dari [sini](https://www.kemkes.go.id/). Apabila terjadi kendala langsung hubungi saya, dan apabila website [KEMENKES](https://www.kemkes.go.id/) down, API ini akan erorr karena beluma ada nya cache sistem yang baik. Project ini mungkin bukan untuk commercial use sebab scrapping bukanlah hal yang legal disemua website. Gunakan dengan bijak
+Untuk project ini saya menggunakan express dan scrapping data dari [sini](https://www.kemkes.go.id/). Apabila terjadi kendala langsung hubungi saya, dan apabila website [KEMENKES](https://www.kemkes.go.id/) down, API ini akan erorr karena belum ada nya cache sistem yang baik. Project ini mungkin bukan untuk commercial use sebab scrapping bukanlah hal yang legal disemua website. Gunakan dengan bijak
 
 ## Deployment
 >[JSON API](https://vaksincovid19-api.now.sh/)<br>
