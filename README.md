@@ -12,7 +12,7 @@ Untuk project ini saya menggunakan express dan scrapping data dari [sini](https:
 
 ## Endpoints
 * [/api/vaksin](https://vaksincovid19-api.now.sh/api/vaksin)
-    > Menampilkan data dari [sini](https://www.kemkes.go.id/) menjadi JSON yang memuat: total sasaran vaksin, sasaran vaksin SDMK,registrasi ulang, vaksinasi-1,vaksinasi 2, dan lastUpdate(dalam utc)
+    > Menampilkan data dari [sini](https://www.kemkes.go.id/) menjadi JSON yang memuat: total sasaran vaksin, sasaran vaksin SDMK,registrasi ulang, vaksinasi-1,vaksinasi 2, dan lastUpdate
 
 ## License
 
