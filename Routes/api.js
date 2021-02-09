@@ -13,13 +13,14 @@ router.get('/', (req, res) => {
 })
 
 router.get('/vaksin', async(req, res) => {
-    const { totalsasaran, sasaranvaksinsdmk, vaksinasi1, vaksinasi2 } = await scrape()
+    const { totalsasaran, sasaranvaksinsdmk, registrasiulang, vaksinasi1, vaksinasi2, tanggalProcessed } = await scrape()
     res.json({
         totalsasaran,
         sasaranvaksinsdmk,
+        registrasiulang,
         vaksinasi1,
         vaksinasi2,
-        lastUpdate: new Date()
+        lastUpdate: tanggalProcessed
 
     })
 })
