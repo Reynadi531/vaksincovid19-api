@@ -8,7 +8,7 @@ Untuk project ini saya menggunakan express dan scrapping data dari [sini](https:
 
 ## Deployment
 >[JSON API](https://vaksincovid19-api.now.sh/)<br>
->[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2FReynadi531%2Fapi-covid19-indonesia)
+>[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FReynadi531%2Fvaksincovid19-api%2F)
 
 ## Endpoints
 * [/api/vaksin](https://vaksincovid19-api.now.sh/api/vaksin)
