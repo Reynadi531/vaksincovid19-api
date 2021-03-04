@@ -4,7 +4,9 @@
 ![](https://forthebadge.com/images/badges/built-with-love.svg)
 
 
-Untuk project ini saya menggunakan express dan scrapping data dari [sini](https://www.kemkes.go.id/). Apabila terjadi kendala langsung hubungi saya, dan apabila website [KEMENKES](https://www.kemkes.go.id/) down, API ini akan erorr karena belum ada nya cache sistem yang baik. Project ini mungkin bukan untuk commercial use sebab scrapping bukanlah hal yang legal disemua website. Gunakan dengan bijak
+Untuk project ini saya menggunakan express dan scrapping data dari [sini](https://www.kemkes.go.id/). Apabila terjadi kendala langsung hubungi saya, dan apabila website [KEMENKES](https://www.kemkes.go.id/) down, API ini akan erorr karena belum ada nya cache sistem yang baik. Project ini mungkin bukan untuk commercial use sebab scrapping bukanlah hal yang legal disemua website. Gunakan dengan bijak<br>
+
+> __**Update: Website KEMKES tidak support scrapping lagi sekarang beralih ke API [cekdiri.id](https://cekdiri.id/vaksinasi/)**__
 
 ## Deployment
 >[JSON API](https://vaksincovid19-api.now.sh/)<br>
