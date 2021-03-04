@@ -1,6 +1,6 @@
 const router = require('express').Router()
-const scrape = require('../util/scrape')
-const ObjectToCsv = require('objects-to-csv')
+const { fetchCekDiri } = require('../util/fetch')
+const ObjectToCsv = require('objects-to-csv');
 
 router.get('/', (req, res) => {
     const url = `${req.protocol}://${req.hostname}${req.hostname == 'localhost' ? `:${process.env.PORT || 3000}` : ''}`;
@@ -19,19 +19,12 @@ router.get('/', (req, res) => {
 })
 
 router.get('/vaksin', async(req, res) => {
-    const { totalsasaran, sasaranvaksinsdmk, populasivaksin, vaksinasi1, vaksinasi2, lastUpdate } = await scrape()
-    res.json({
-        totalsasaran,
-        sasaranvaksinsdmk,
-        populasivaksin,
-        vaksinasi1,
-        vaksinasi2,
-        lastUpdate
-    })
+    const data = await fetchCekDiri();
+    res.json(data);
 })
 
 router.get('/csv/vaksin', async(req, res) => {
-    const data = await scrape()
+    const data = await fetchCekDiri()
     const csvData = await (new ObjectToCsv([data])).toString()
     res.set("Content-Type", "text/csv")
     res.send(csvData)
